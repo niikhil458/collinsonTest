@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-07T12:21:33.492Z",
+        "line": 5,
+        "name": "Verify city frankfurt is in germany and return their corresponding latitude and longitude",
+        "description": "",
+        "id": "validating-exact-location-of-city-bikes;verify-city-frankfurt-is-in-germany-and-return-their-corresponding-latitude-and-longitude",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3762660100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls an API with Get request",
+            "match": {
+              "location": "LocationCityBikes.user_calls_an_API_with_Get_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054039300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify city frankfurt is in germanay",
+            "match": {
+              "location": "LocationCityBikes.verify_city_frankfurt_is_in_germanay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 201467500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify latitude and longitude",
+            "match": {
+              "location": "LocationCityBikes.verify_latitude_and_longitude()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-07T12:21:38.540Z",
+        "line": 13,
+        "name": "Verify city frankfurt ID",
+        "description": "",
+        "id": "validating-exact-location-of-city-bikes;verify-city-frankfurt-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 610550100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User calls an API with Get request",
+            "match": {
+              "location": "LocationCityBikes.user_calls_an_API_with_Get_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270985700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify city frankfurt id",
+            "match": {
+              "location": "LocationCityBikes.verify_city_frankfurt_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Exact Location of city bikes",
+    "description": "",
+    "id": "validating-exact-location-of-city-bikes",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LocationOfCityBikes.feature",
+    "tags": []
+  }
+]
