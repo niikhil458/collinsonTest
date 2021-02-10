@@ -19,9 +19,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/features"
 ,plugin ="json:target/jsonReports/cucumber-report.json",
-glue= {"com.collinson.StepDefinition"})
+tags = {"@Regression"},
+//dryRun = true,
+monochrome=true,
+glue= {"com/collinson/StepDefinition"})
 public class TestRunner {
-//tags= {"@DeletePlace"}  compile test verify
+
 }
 
 
